@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author zhangjh
+ * @author qz
  * @date 4:09 PM 2022/12/15
  * @Description
  */
@@ -19,4 +19,5 @@ public class ChatGptConfig {
     public ChatGptService chatGptService() {
         return new ChatGptServiceImpl();
     }
+
 }

@@ -6,7 +6,7 @@ import com.henu.chatgpt.dto.response.ImageResponse;
 import com.henu.chatgpt.dto.response.TextResponse;
 
 /**
- * @author qinzheng
+ * @author qz
  * @Description
  */
 public interface ChatGptService {

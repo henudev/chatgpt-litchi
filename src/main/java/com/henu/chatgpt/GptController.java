@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/chatGpt")
-public class CptController {
+public class GptController {
 
     @Autowired
     public ChatGptService chatGptService;
